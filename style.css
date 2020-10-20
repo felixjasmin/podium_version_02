@@ -1,0 +1,54 @@
+*
+{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: block;
+  min-height: 100vh;  
+  background: gray;
+}
+
+.animation{
+  height: 100vh;
+  background-color: rgb(66, 167, 35);
+  position: relative;
+  //overflow: hidden;
+}
+
+.trophy{
+  height: 0px;
+  bottom: 55vh;
+  left: 55vh;
+  position: absolute;
+  
+}
+
+.square_02 {
+  position: absolute;
+  bottom: 50vh;
+  left: 50vh;
+  width: 5vh;
+  height: 0vmin;
+  background-color:black;
+}
+
+.square_01 {
+  position: absolute;
+  bottom: 50vh;
+  left: 55vh;
+  width: 5vh;
+  height: 0vmin;
+  background-color:black;
+}
+
+.square_03 {
+  position: absolute;
+  bottom: 50vh;
+  left: 60vh;
+  width: 5vh;
+  height: 0vmin;
+  background-color: black;
+}
